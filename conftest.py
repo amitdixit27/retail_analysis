@@ -8,6 +8,7 @@ def spark():
     yield spark_session
     spark_session.stop()
 
+
 @pytest.fixture
 def expected_results(spark):
     "gives the expected result"
