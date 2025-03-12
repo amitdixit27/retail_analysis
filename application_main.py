@@ -11,7 +11,7 @@ if __name__=='__main__' :
     job_run_env = sys.argv[1]
     
     
-    print("Creating SparkSession")
+    print("Creating SparkSesion")
     
     spark = Utils.get_spark_session(job_run_env)
     print("Created SparkSession")
